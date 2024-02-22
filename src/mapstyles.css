@@ -1,3 +1,9 @@
 .selectedState {
   fill: teal !important;
 }
+.map-div {
+  width: 50vw;
+  outline: 2px solid black;
+  margin: 50px;
+  height: auto;
+}

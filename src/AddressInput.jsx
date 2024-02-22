@@ -38,7 +38,7 @@ export function AddressInput({ setPoints, setLines }) {
         colorLineRef.current.value
       );
       setLines(l => [...l, line]);
-    }, 2000);
+    }, 1000);
   };
 
   const doGeoCode = async addr => {
